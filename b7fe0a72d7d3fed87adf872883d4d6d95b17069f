@@ -1,0 +1,8 @@
+Change-Id: Ib7fe0a72d7d3fed87adf872883d4d6d95b17069f
+Code-Review+2: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Wed, 18 Mar 2009 17:54:35 -0700
+Reviewed-on: https://review.source.android.com/9247
+Project: platform/external/apache-http
+Branch: refs/heads/master
