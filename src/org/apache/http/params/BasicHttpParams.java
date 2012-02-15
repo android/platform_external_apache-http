@@ -49,7 +49,7 @@ import org.apache.http.params.HttpParams;
  * 
  * @version $Revision: 610464 $
  */
-public final class BasicHttpParams extends AbstractHttpParams
+public class BasicHttpParams extends AbstractHttpParams
     implements Serializable, Cloneable {
 
     private static final long serialVersionUID = -7086398485908701455L;
