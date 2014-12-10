@@ -16,6 +16,24 @@
       "revId": "4f1bb81ea8b83d5952b2ae5e8088a189047dc1f7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "44eebec7_b069d6dc",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1014443
+      },
+      "writtenOn": "2014-12-10T17:47:58Z",
+      "side": 1,
+      "message": "i\u0027ll actually do it in an earlier (in terms of submission order) patch.",
+      "parentUuid": "842516f1_507ea29f",
+      "revId": "4f1bb81ea8b83d5952b2ae5e8088a189047dc1f7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
