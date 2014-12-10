@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "842516f1_507ea29f",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-12-10T17:46:48Z",
+      "side": 1,
+      "message": "kill it and find out? or did you want to do that in a later patch instead?",
+      "revId": "4f1bb81ea8b83d5952b2ae5e8088a189047dc1f7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
