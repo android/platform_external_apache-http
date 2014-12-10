@@ -18,11 +18,10 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := apachehttp
 LOCAL_MODULE_TAGS := optional
-LOCAL_NO_STANDARD_LIBRARIES := true
-LOCAL_JAVA_LIBRARIES := conscrypt framework core-libart
+LOCAL_JAVA_LIBRARIES := conscrypt
 LOCAL_SRC_FILES := \
     $(call all-java-files-under,src) \
     $(call all-java-files-under,android) \
 
 LOCAL_MODULE_TAGS := optional
-include $(BUILD_STATIC_JAVA_LIBRARY)
+include $(BUILD_JAVA_LIBRARY)
