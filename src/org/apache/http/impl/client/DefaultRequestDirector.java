@@ -31,6 +31,10 @@
 
 package org.apache.http.impl.client;
 
+// BEGIN android-added
+import libcore.net.NetworkSecurityPolicy;
+// END android-added
+
 import java.io.IOException;
 import java.io.InterruptedIOException;
 import java.net.URI;
@@ -430,6 +434,13 @@ public class DefaultRequestDirector implements RequestDirector {
                         if (this.log.isDebugEnabled()) {
                             this.log.debug("Attempt " + execCount + " to execute request");
                         }
+                        // BEGIN android-added
+                        if ((!route.isSecure())
+                                && (!NetworkSecurityPolicy.isCleartextTrafficPermitted())) {
+                            throw new IOException(
+                                    "Cleartext traffic not permitted: " + route.getTargetHost());
+                        }
+                        // END android-added
                         response = requestExec.execute(wrapper, managedConn, context);
                         retrying = false;
                         
