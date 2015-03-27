@@ -22,6 +22,30 @@
       "revId": "d2c083183893ed6b2e2d1124b32699ba03764379",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "63a3ca80_ccafc30d",
+        "filename": "src/org/apache/http/impl/client/DefaultRequestDirector.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1158,
+      "author": {
+        "id": 1018773
+      },
+      "writtenOn": "2015-03-27T17:40:39Z",
+      "side": 1,
+      "message": "I have now made the exception more specific.\n\nI think it\u0027s better to fall back to \"cleartext permitted\" until we figure out how to get rid of this reflection-based approach. It\u0027s there for a reason which is that it\u0027s not entirely clear which version of the framework API is on classpath. When it\u0027s an old version, we want to keep cleartext traffic permitted, for backward compatibility reasons. I\u0027m not sure whether to log this issue either -- it might lead to unnecessary spewing.\n\nOn new Android platforms CTS will take care of ensuring this error case doesn\u0027t occur.",
+      "parentUuid": "c3c55625_913a3e95",
+      "range": {
+        "startLine": 1158,
+        "startChar": 17,
+        "endLine": 1158,
+        "endChar": 26
+      },
+      "revId": "d2c083183893ed6b2e2d1124b32699ba03764379",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
