@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c3c55625_913a3e95",
+        "filename": "src/org/apache/http/impl/client/DefaultRequestDirector.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1158,
+      "author": {
+        "id": 1038039
+      },
+      "writtenOn": "2015-03-27T17:12:18Z",
+      "side": 1,
+      "message": "Exception seems a bit broad, especially since we can do multi-catch now. (Not that I think anything much can go wrong if your assumptions about classpath hold).\n\nGiven the error is unexpected, can we use this.log.\u003cerror\u003e to record it?\nI\u0027d also be tempted to default to \"false\", given we\u0027re unlikely to notice a problem with the code otherwise.",
+      "range": {
+        "startLine": 1158,
+        "startChar": 17,
+        "endLine": 1158,
+        "endChar": 26
+      },
+      "revId": "d2c083183893ed6b2e2d1124b32699ba03764379",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
