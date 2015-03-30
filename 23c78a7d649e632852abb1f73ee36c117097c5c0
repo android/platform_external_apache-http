@@ -1,0 +1,7 @@
+Code-Review+2: Neil Fuller <nfuller@google.com>
+Verified+1: Deckard Autoverifier <deckard@android.com>
+Submitted-by: Alex Klyubin <klyubin@google.com>
+Submitted-at: Mon, 30 Mar 2015 16:21:29 +0000
+Reviewed-on: https://android-review.googlesource.com/144220
+Project: platform/external/apache-http
+Branch: refs/heads/master
