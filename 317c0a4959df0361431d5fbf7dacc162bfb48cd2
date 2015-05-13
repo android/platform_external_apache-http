@@ -1,0 +1,9 @@
+Code-Review+2: Narayan Kamath <narayan@google.com>
+Code-Review+2: Neil Fuller <nfuller@google.com>
+Code-Review+2: Kenny Root <kroot@google.com>
+Verified+1: Kenny Root <kroot@google.com>
+Submitted-by: Kenny Root <kroot@google.com>
+Submitted-at: Wed, 13 May 2015 17:52:35 +0000
+Reviewed-on: https://android-review.googlesource.com/150402
+Project: platform/external/apache-http
+Branch: refs/heads/master
