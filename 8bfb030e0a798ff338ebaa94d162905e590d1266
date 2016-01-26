@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "34c3ee5c_8ee02fba",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1018773
+      },
+      "writtenOn": "2016-01-26T17:00:30Z",
+      "side": 1,
+      "message": "Please add more details about what this is about. Please also add a link to relevant feature ID.",
+      "revId": "8bfb030e0a798ff338ebaa94d162905e590d1266",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
