@@ -22,6 +22,30 @@
       "revId": "ffc20bf335e4463afac0176e2089a4b7d06498b2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d1b8e4d6_799d674a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1002975
+      },
+      "writtenOn": "2016-02-02T15:20:57Z",
+      "side": 1,
+      "message": "Yes.. jet lag...",
+      "parentUuid": "349a0eef_547542cd",
+      "range": {
+        "startLine": 11,
+        "startChar": 8,
+        "endLine": 11,
+        "endChar": 13
+      },
+      "revId": "ffc20bf335e4463afac0176e2089a4b7d06498b2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
