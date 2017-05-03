@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "81189e01_9aaa91c4",
+        "filename": "android/src/android/net/http/HttpsConnection.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1103203
+      },
+      "writtenOn": "2017-05-03T22:09:58Z",
+      "side": 1,
+      "message": "I guess if the type assumption implicit in the runtime type cast ever breaks, lots of our URLConnectionTests would start failing, so we don\u0027t have to worry about adding a unit test for this instanceof assumption?\n\nnit: mind\n  - rewrapping to prevent the long line (or introducing a static import to make the line shorter)\n  - removing the duplicate space after \"\u003d\"\n?\n\nNot important, feel free to skip if it\u0027s onerous.",
+      "range": {
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 104
+      },
+      "revId": "51c55971d99889ccbcf6cc6b896cabeb1850e722",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
