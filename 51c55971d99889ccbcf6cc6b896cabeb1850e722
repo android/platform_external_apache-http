@@ -1,0 +1,8 @@
+Verified+1: Kenny Root <kroot@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Tobias Thierer <tobiast@google.com>
+Submitted-by: Kenny Root <kroot@google.com>
+Submitted-at: Fri, 05 May 2017 21:00:38 +0000
+Reviewed-on: https://android-review.googlesource.com/358333
+Project: platform/external/apache-http
+Branch: refs/heads/master
