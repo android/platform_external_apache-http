@@ -1,0 +1,8 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Jeff Sharkey <jsharkey@android.com>
+Verified+1: Adam Lesinski <adamlesinski@google.com>
+Submitted-by: Adam Lesinski <adamlesinski@google.com>
+Submitted-at: Fri, 09 Feb 2018 20:48:27 +0000
+Reviewed-on: https://android-review.googlesource.com/610739
+Project: platform/external/apache-http
+Branch: refs/heads/master
