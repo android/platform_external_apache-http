@@ -68,6 +68,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_JAVA_LIBRARIES := $(apache_http_java_libs)
 LOCAL_SRC_FILES := $(apache_http_src_files)
 LOCAL_MODULE_TAGS := optional
+LOCAL_ERROR_PRONE_FLAGS := -Xep:MissingOverride:OFF
 include $(BUILD_JAVA_LIBRARY)
 
 ##############################################
@@ -136,6 +137,7 @@ LOCAL_SOURCE_FILES_ALL_GENERATED := true
 LOCAL_SDK_VERSION := 21
 # Make sure to run droiddoc first to generate the stub source files.
 LOCAL_ADDITIONAL_DEPENDENCIES := $(apache_http_stubs_gen_stamp)
+LOCAL_ERROR_PRONE_FLAGS := -Xep:MissingOverride:OFF
 include $(BUILD_STATIC_JAVA_LIBRARY)
 
 # Archive a copy of the classes.jar in SDK build.
