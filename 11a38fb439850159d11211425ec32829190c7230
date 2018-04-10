@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "a180989b_fe3c16e2",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2018-04-10T10:02:30Z",
+      "side": 1,
+      "message": "What is this, where is it from?",
+      "range": {
+        "startLine": 20,
+        "startChar": 9,
+        "endLine": 20,
+        "endChar": 36
+      },
+      "revId": "11a38fb439850159d11211425ec32829190c7230",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d0a84a3f_265abb44",
         "filename": "Android.bp",
         "patchSetId": 2
@@ -19,6 +42,23 @@
         "endLine": 30,
         "endChar": 6
       },
+      "revId": "11a38fb439850159d11211425ec32829190c7230",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "85f0c334_d4e802c4",
+        "filename": "Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2018-04-10T10:02:30Z",
+      "side": 1,
+      "message": "Where are these specified? Why the change?",
       "revId": "11a38fb439850159d11211425ec32829190c7230",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
