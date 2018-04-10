@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d0a84a3f_265abb44",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2018-04-10T01:10:58Z",
+      "side": 1,
+      "message": "Just for curiosity. Why is this needed for droiddoc? The sources are already provided by srcs.",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 6
+      },
+      "revId": "11a38fb439850159d11211425ec32829190c7230",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
