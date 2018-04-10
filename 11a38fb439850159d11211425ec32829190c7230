@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9e7e83b6_d3b41d0a",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1136354
+      },
+      "writtenOn": "2018-04-10T19:42:30Z",
+      "side": 1,
+      "message": "https://android-review.googlesource.com/c/platform/frameworks/base/+/661168",
+      "parentUuid": "a180989b_fe3c16e2",
+      "range": {
+        "startLine": 20,
+        "startChar": 9,
+        "endLine": 20,
+        "endChar": 36
+      },
+      "revId": "11a38fb439850159d11211425ec32829190c7230",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d0a84a3f_265abb44",
         "filename": "Android.bp",
         "patchSetId": 2
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "349a51ca_dcc8f6f0",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1136354
+      },
+      "writtenOn": "2018-04-10T19:42:30Z",
+      "side": 1,
+      "message": "The javadoc said this specifies the search paths for finding source files when passing package names or the -subpackages option into the javadoc command. but I can try to remove this to see if the results are identical",
+      "parentUuid": "d0a84a3f_265abb44",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 6
+      },
+      "revId": "11a38fb439850159d11211425ec32829190c7230",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "85f0c334_d4e802c4",
         "filename": "Android.mk",
         "patchSetId": 2
@@ -59,6 +107,24 @@
       "writtenOn": "2018-04-10T10:02:30Z",
       "side": 1,
       "message": "Where are these specified? Why the change?",
+      "revId": "11a38fb439850159d11211425ec32829190c7230",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3fa256f2_7605495b",
+        "filename": "Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1136354
+      },
+      "writtenOn": "2018-04-10T19:42:30Z",
+      "side": 1,
+      "message": "when Soong export variables to Make, we need add a unified name prefix for these variables:\nhttps://cs.corp.google.com/aosp-master/build/soong/java/androidmk.go?rcl\u003df19b9bb9819fbe36a05c31e193135a9b3b2e8388\u0026l\u003d249",
+      "parentUuid": "85f0c334_d4e802c4",
       "revId": "11a38fb439850159d11211425ec32829190c7230",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
