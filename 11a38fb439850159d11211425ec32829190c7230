@@ -120,6 +120,30 @@
     },
     {
       "key": {
+        "uuid": "656a5a09_845f0252",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1136354
+      },
+      "writtenOn": "2018-04-11T22:16:28Z",
+      "side": 1,
+      "message": "Removed。",
+      "parentUuid": "9849551c_e72dcf23",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 6
+      },
+      "revId": "11a38fb439850159d11211425ec32829190c7230",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "85f0c334_d4e802c4",
         "filename": "Android.mk",
         "patchSetId": 2
