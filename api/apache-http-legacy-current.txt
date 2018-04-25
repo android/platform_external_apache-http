@@ -329,6 +329,12 @@ package android.net.http {
     field public static final int SSL_UNTRUSTED = 3; // 0x3
   }
 
+  public class X509TrustManagerExtensions {
+    ctor public X509TrustManagerExtensions(javax.net.ssl.X509TrustManager) throws java.lang.IllegalArgumentException;
+    method public java.util.List<java.security.cert.X509Certificate> checkServerTrusted(java.security.cert.X509Certificate[], java.lang.String, java.lang.String) throws java.security.cert.CertificateException;
+    method public boolean isUserAddedCertificate(java.security.cert.X509Certificate);
+  }
+
 }
 
 package com.android.internal.http.multipart {
@@ -699,6 +705,7 @@ package org.apache.commons.logging {
     ctor public LogConfigurationException(java.lang.String);
     ctor public LogConfigurationException(java.lang.Throwable);
     ctor public LogConfigurationException(java.lang.String, java.lang.Throwable);
+    method public java.lang.Throwable getCause();
     field protected java.lang.Throwable cause;
   }
 
