@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "443d7d26_3106df10",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1060959
+      },
+      "writtenOn": "2018-05-01T12:30:13Z",
+      "side": 1,
+      "message": "Is this is a bug worth fixing before using java_sdk_library more widely? Might be a problem that changing the framework requires you to update stubs that depend on it.",
+      "revId": "e5edcd23f48f7f98af5aa418209c5fe3d9ac7660",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
