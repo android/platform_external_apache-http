@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a40e9500_0c7869fe",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1136354
+      },
+      "writtenOn": "2018-05-16T00:04:36Z",
+      "side": 0,
+      "message": "So we don\u0027t need this source?",
+      "range": {
+        "startLine": 20,
+        "startChar": 8,
+        "endLine": 20,
+        "endChar": 36
+      },
+      "revId": "6bf56852e720f77b9da28d048826ead78de166b7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
