@@ -16,6 +16,24 @@
       "revId": "e5edcd23f48f7f98af5aa418209c5fe3d9ac7660",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7d644d12_8b9d5a77",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2018-05-22T13:05:34Z",
+      "side": 1,
+      "message": "Maybe not. This case is very specific to org.apache.http.legacy which shares source code (and package names) with framework.jar (for historical reason). Any other SDK library shouldn\u0027t do that.\n\nIn order to exclude X509... class from here, java_sdk_library should be able to specify a special set of source files that are part of API signature, but not a part of its implementation, which will be only necessary for this lib.",
+      "parentUuid": "443d7d26_3106df10",
+      "revId": "e5edcd23f48f7f98af5aa418209c5fe3d9ac7660",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }

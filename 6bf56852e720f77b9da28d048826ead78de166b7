@@ -22,6 +22,30 @@
       "revId": "6bf56852e720f77b9da28d048826ead78de166b7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "993d639a_b8b0cd1b",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2018-05-22T13:05:34Z",
+      "side": 0,
+      "message": "Still needed. I should have abandoned this CL. Please refer to my CL in the internal gerrit. 3991196 I\u0027ve added you as a reviewer.",
+      "parentUuid": "a40e9500_0c7869fe",
+      "range": {
+        "startLine": 20,
+        "startChar": 8,
+        "endLine": 20,
+        "endChar": 36
+      },
+      "revId": "6bf56852e720f77b9da28d048826ead78de166b7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
