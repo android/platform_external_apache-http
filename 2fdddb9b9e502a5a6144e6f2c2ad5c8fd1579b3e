@@ -1,0 +1,8 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Jiyong Park <jiyong@google.com>
+Code-Review+2: Jiyong Park <jiyong@google.com>
+Submitted-by: Jiyong Park <jiyong@google.com>
+Submitted-at: Wed, 23 May 2018 11:35:10 +0000
+Reviewed-on: https://android-review.googlesource.com/675921
+Project: platform/external/apache-http
+Branch: refs/heads/master
