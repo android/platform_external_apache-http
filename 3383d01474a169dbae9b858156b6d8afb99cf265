@@ -1,0 +1,8 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Paul Duffin <paulduffin@google.com>
+Verified+1: Neil Fuller <nfuller@google.com>
+Submitted-by: Neil Fuller <nfuller@google.com>
+Submitted-at: Fri, 19 Oct 2018 10:24:01 +0000
+Reviewed-on: https://android-review.googlesource.com/786662
+Project: platform/external/apache-http
+Branch: refs/heads/master
