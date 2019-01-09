@@ -22,7 +22,8 @@ package android.net.http;
 
 import org.apache.http.HttpHost;
 
-interface RequestFeeder {
+@Deprecated
+public interface RequestFeeder {
 
     Request getRequest();
     Request getRequest(HttpHost host);

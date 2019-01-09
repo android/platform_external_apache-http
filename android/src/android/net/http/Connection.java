@@ -36,7 +36,8 @@ import org.apache.http.protocol.ExecutionContext;
 import org.apache.http.protocol.HttpContext;
 import org.apache.http.protocol.BasicHttpContext;
 
-abstract class Connection {
+@Deprecated
+public abstract class Connection {
 
     /**
      * Allow a TCP connection 60 idle seconds before erroring out

@@ -71,6 +71,13 @@ package android.net.http {
     method public static android.net.http.SslError verifyServerCertificates(byte[][], java.lang.String, java.lang.String) throws java.io.IOException;
   }
 
+  public abstract deprecated class Connection {
+    ctor protected Connection(android.content.Context, org.apache.http.HttpHost, android.net.http.RequestFeeder);
+    method public synchronized java.lang.String toString();
+    field protected android.net.http.SslCertificate mCertificate;
+    field protected android.net.http.AndroidHttpClientConnection mHttpClientConnection;
+  }
+
   public class DelegatingSSLSession implements javax.net.ssl.SSLSession {
     ctor protected DelegatingSSLSession();
     method public int getApplicationBufferSize();
@@ -216,7 +223,7 @@ package android.net.http {
     field public static final int UNKNOWN = 0; // 0x0
   }
 
-  public class HttpsConnection {
+  public class HttpsConnection extends android.net.http.Connection {
     method public static void initializeEngine(java.io.File);
   }
 
@@ -231,6 +238,17 @@ package android.net.http {
     method public void locationChanged(java.lang.String, boolean);
     method public void requestSent();
     method public void status(int, int, int, java.lang.String);
+  }
+
+  public deprecated class Request {
+    method public void handleSslErrorResponse(boolean);
+  }
+
+  public abstract deprecated interface RequestFeeder {
+    method public abstract android.net.http.Request getRequest();
+    method public abstract android.net.http.Request getRequest(org.apache.http.HttpHost);
+    method public abstract boolean haveRequest(org.apache.http.HttpHost);
+    method public abstract void requeueRequest(android.net.http.Request);
   }
 
   public class RequestHandle {
@@ -253,7 +271,7 @@ package android.net.http {
     field public static final int MAX_REDIRECT_COUNT = 16; // 0x10
   }
 
-  public class RequestQueue {
+  public class RequestQueue implements android.net.http.RequestFeeder {
     ctor public RequestQueue(android.content.Context);
     ctor public RequestQueue(android.content.Context, int);
     method public synchronized void disablePlatformNotifications();
