@@ -22,6 +22,30 @@
       "revId": "d3403698703f37e36786774c7cb3788e33d2d7e5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3ff3fc17_5bb51264",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1187124
+      },
+      "writtenOn": "2019-01-10T11:23:51Z",
+      "side": 1,
+      "message": "The metalava checks for a few errors that doclava did not. So I have to either suppress those errors or add public class (you can see the detail code change at https://android-review.googlesource.com/c/platform/external/apache-http/+/865432/1).\nI added this option to avoid APIs change.",
+      "parentUuid": "f6a52a4a_c16da15a",
+      "range": {
+        "startLine": 72,
+        "startChar": 31,
+        "endLine": 72,
+        "endChar": 47
+      },
+      "revId": "d3403698703f37e36786774c7cb3788e33d2d7e5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
