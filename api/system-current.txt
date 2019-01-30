@@ -1,1 +1,9 @@
 // Signature format: 2.0
+package android.net.http {
+
+  public class SslCertificate {
+    method public android.view.View inflateCertificateView(android.content.Context);
+  }
+
+}
+
