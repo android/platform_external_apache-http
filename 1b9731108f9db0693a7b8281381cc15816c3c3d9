@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e41a8683_dd1f2dfc",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1103203
+      },
+      "writtenOn": "2019-02-06T14:16:01Z",
+      "side": 1,
+      "message": "Did your atest run these against a local physical device? Presumably we\u0027ll want to test against a virtual device, since that\u0027s what treehugger would be doing in future, right?",
+      "revId": "1b9731108f9db0693a7b8281381cc15816c3c3d9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
