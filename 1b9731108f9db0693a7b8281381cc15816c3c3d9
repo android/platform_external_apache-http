@@ -16,6 +16,24 @@
       "revId": "1b9731108f9db0693a7b8281381cc15816c3c3d9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8c39b3ce_899f3213",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2019-02-06T14:27:17Z",
+      "side": 1,
+      "message": "It did. TreeHugger will run them against a virtual device as part of the presubmit checks for this change.",
+      "parentUuid": "e41a8683_dd1f2dfc",
+      "revId": "1b9731108f9db0693a7b8281381cc15816c3c3d9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
