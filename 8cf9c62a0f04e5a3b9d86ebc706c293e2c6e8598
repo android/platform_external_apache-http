@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b790e721_4177c8cc",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1038039
+      },
+      "writtenOn": "2019-02-11T16:51:36Z",
+      "side": 1,
+      "message": "Worthy of some comments / bug reference of what is being achieved here. It\u0027s not \"normal\" and people shouldn\u0027t need to go to the commit comment if we can sum it up.\n\nPerhaps:\n\n// Subtract classes from the API .txt / stubs that are in the public SDK API. Without this\n// the org.apache.http.legacy.jar would contain duplicates of classes in android.jar.\n// http://b/...",
+      "range": {
+        "startLine": 72,
+        "startChar": 30,
+        "endLine": 72,
+        "endChar": 40
+      },
+      "revId": "8cf9c62a0f04e5a3b9d86ebc706c293e2c6e8598",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}

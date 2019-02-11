@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8d0078e7_c1ad71c9",
+        "filename": "api/current.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 1038039
+      },
+      "writtenOn": "2019-02-11T16:51:36Z",
+      "side": 0,
+      "message": "FTR - It looks like there isn\u0027t a last.txt so we won\u0027t get in trouble here for making an incompatible change.",
+      "range": {
+        "startLine": 276,
+        "startChar": 15,
+        "endLine": 276,
+        "endChar": 29
+      },
+      "revId": "491661a74e42697b5857bcc59432980d57fa8c27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
