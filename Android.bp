@@ -69,5 +69,9 @@ java_sdk_library {
     errorprone: {
         javacflags: ["-Xep:MissingOverride:OFF"], // b/73499927
     },
-    droiddoc_options: ["--hide ReferencesHidden"]
+    droiddoc_option_files: [":frameworks-base-api-current.txt"],
+    droiddoc_options: [
+        "--hide ReferencesHidden",
+        "--subtract-api $(location :frameworks-base-api-current.txt)",
+    ],
 }
