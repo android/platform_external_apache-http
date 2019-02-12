@@ -22,6 +22,30 @@
       "revId": "491661a74e42697b5857bcc59432980d57fa8c27",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "378af191_72b2c366",
+        "filename": "api/current.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2019-02-12T13:07:28Z",
+      "side": 0,
+      "message": "Ack",
+      "parentUuid": "8d0078e7_c1ad71c9",
+      "range": {
+        "startLine": 276,
+        "startChar": 15,
+        "endLine": 276,
+        "endChar": 29
+      },
+      "revId": "491661a74e42697b5857bcc59432980d57fa8c27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
