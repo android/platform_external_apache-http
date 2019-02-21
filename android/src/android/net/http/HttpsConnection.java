@@ -18,6 +18,7 @@ package android.net.http;
 
 import android.content.Context;
 import android.util.Log;
+import com.android.org.conscrypt.ClientSessionContext;
 import com.android.org.conscrypt.Conscrypt;
 import com.android.org.conscrypt.FileClientSessionCache;
 import com.android.org.conscrypt.OpenSSLContextImpl;
@@ -96,7 +97,7 @@ public class HttpsConnection extends Connection {
             };
 
             sslContext.engineInit(null, trustManagers, null);
-            sslContext.engineGetClientSessionContext().setPersistentCache(cache);
+            ((ClientSessionContext) sslContext.engineGetClientSessionContext()).setPersistentCache(cache);
 
             synchronized (HttpsConnection.class) {
                 mSslSocketFactory = sslContext.engineGetSocketFactory();
