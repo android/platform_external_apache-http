@@ -1,0 +1,8 @@
+Verified+1: Paul Duffin <paulduffin@google.com>
+Code-Review+2: Paul Duffin <paulduffin@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Paul Duffin <paulduffin@google.com>
+Submitted-at: Wed, 05 Jun 2019 09:28:25 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/external/apache-http/+/976328
+Project: platform/external/apache-http
+Branch: refs/heads/master
