@@ -1,0 +1,11 @@
+Verified+1: Paul Duffin <paulduffin@google.com>
+Autosubmit+1: Paul Duffin <paulduffin@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Code-Review+2: Michael Wright <michaelwr@google.com>
+API-Review+1: Michael Wright <michaelwr@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 11 May 2020 11:16:05 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/external/apache-http/+/1306038
+Project: platform/external/apache-http
+Branch: refs/heads/master
