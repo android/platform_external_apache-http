@@ -1,0 +1,10 @@
+Autosubmit+1: Aurimas Liutikas <aurimas@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Narayan Kamath <narayan@google.com>
+API-Review+1: Alan Viverette <alanv@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Thu, 25 Jun 2020 19:06:54 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/external/apache-http/+/1348243
+Project: platform/external/apache-http
+Branch: refs/heads/master
