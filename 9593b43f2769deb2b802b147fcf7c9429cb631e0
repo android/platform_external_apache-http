@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "05aa518e_7eab674e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003723
+      },
+      "writtenOn": "2021-05-10T17:55:07Z",
+      "side": 1,
+      "message": "Unclear what this \"owner\" is meant to be, but if there is a more specific value that could be used for Android teams, adding responsible leads here as FYI",
+      "revId": "9593b43f2769deb2b802b147fcf7c9429cb631e0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
