@@ -52,6 +52,24 @@
       "parentUuid": "0b66ddd4_1ebe8f5b",
       "revId": "9593b43f2769deb2b802b147fcf7c9429cb631e0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "766bec7e_410d6ed5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2021-05-11T17:36:57Z",
+      "side": 1,
+      "message": "I think the confusion here is that java_sdk_library is overloading the \"owner\" field to mean \"what directory should the SDK be installed in during finalization\", specifically to answer the question \"should this be part of the android SDK during finalization\".\n\nMaybe it would be better to give java_sdk_library a new property to specify that directory, rather than reusing a property that already means \"who owns this code\"?",
+      "parentUuid": "80544bb6_f0f62297",
+      "revId": "9593b43f2769deb2b802b147fcf7c9429cb631e0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
