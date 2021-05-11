@@ -34,6 +34,24 @@
       "parentUuid": "05aa518e_7eab674e",
       "revId": "9593b43f2769deb2b802b147fcf7c9429cb631e0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80544bb6_f0f62297",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1060959
+      },
+      "writtenOn": "2021-05-11T17:22:59Z",
+      "side": 1,
+      "message": "It\u0027s a little obscure because other build modules don\u0027t require owner to be set, so there is no convention around what it should be for AOSP modules. I wouldn\u0027t be opposed to changing the dist rules to be opt-in instead of requiring owners. Don\u0027t care a huge amount though.",
+      "parentUuid": "0b66ddd4_1ebe8f5b",
+      "revId": "9593b43f2769deb2b802b147fcf7c9429cb631e0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
