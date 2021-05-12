@@ -88,6 +88,24 @@
       "parentUuid": "766bec7e_410d6ed5",
       "revId": "9593b43f2769deb2b802b147fcf7c9429cb631e0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b2edaa18_8e47faaa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2021-05-12T12:00:35Z",
+      "side": 1,
+      "message": "So, the issue is that java_sdk_library automatically adds itself to the dist in hard coded directories and we need to be able to have some control over that.\n\nI\u0027m not 100% sure of the effect of setting the owner property but given that Colin thinks \"overloading\" it in this way is causing confusion it may be better to add a different dist specific property.\n\nThere is already a no_dist property and a dist_stem property to control some aspects of the dist instructions. So, adding more dist specific properties (rather than the more generic owner property) has precedence.",
+      "parentUuid": "cd30d6ba_5583fe22",
+      "revId": "9593b43f2769deb2b802b147fcf7c9429cb631e0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
