@@ -106,6 +106,24 @@
       "parentUuid": "cd30d6ba_5583fe22",
       "revId": "9593b43f2769deb2b802b147fcf7c9429cb631e0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4b58dba_134bc3bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2021-06-01T21:38:37Z",
+      "side": 1,
+      "message": "Replaced owner with dist_group.",
+      "parentUuid": "b2edaa18_8e47faaa",
+      "revId": "9593b43f2769deb2b802b147fcf7c9429cb631e0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
